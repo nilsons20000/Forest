@@ -321,8 +321,10 @@ ul.offers{
     padding-top: 90px;
     text-align: center;
   }
-  p.width{
-    font-size: 18px;
+  .center_text_block{
+    p.font{
+      font-size: 18px;
+    }
   }
 }
 
@@ -609,9 +611,8 @@ form input[type="submit"]{
 }
 
 .slider__items_description{
+  width: 758px;
   font-family:"Josefin sans, Light";
-}
-.slider__items_description{
   p{
     text-align: center;
     font-size: 18px;

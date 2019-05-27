@@ -1,0 +1,38 @@
+function openNav() { 
+document.getElementById("myNav") 
+.style.height="100%"; 
+} 
+
+function closeNav() { 
+document.getElementById("myNav") 
+.style.height = "0%"; 
+} 	
+
+jQuery(window).scroll(function(){
+        var $sections = $("div");
+		$sections.each(function(i,el){
+        var top  = $(el).offset().top-100;
+        var bottom = top +$(el).height();
+        var scroll = $(window).scrollTop();
+        var id = $(el).attr("id");
+    	if( scroll > top && scroll < bottom){
+            $("a.active").removeClass('active');
+			$('a[href="#'+id+'"]').addClass('active');
+
+        }
+    })
+ });
+
+$("#menu").on("click","a", function (event) {
+        // исключаем стандартную реакцию браузера
+        event.preventDefault();
+ 
+        // получем идентификатор блока из атрибута href
+        var id  = $(this).attr('href'),
+ 
+        // находим высоту, на которой расположен блок
+            top = $(id).offset().top;
+         
+        // анимируем переход к блоку, время: 800 мс
+        $('body,html').animate({scrollTop: top}, 800);
+    });

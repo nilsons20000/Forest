@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "Josefin Sans";
+	src:url(../themes_cirsmas/font/JosefinSans-Thin.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Josefin Sans";
+	src:url(../themes_cirsmas/font/JosefinSans-Bold-Thin.ttf) format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Josefin Sans";
+	src:url(../themes_cirsmas/font/JosefinSans-BoldItalic.ttf) format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Josefin Sans,Regular";
+	src:url(../themes_cirsmas/font/JosefinSans-Regular.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Josefin Sans, Light";
+	src:url(../themes_cirsmas/font/JosefinSans-Light.ttf) format("truetype");
+	font-weight:normal;
+	font-style:lighter;
+}
+@font-face {
+	font-family: "Josefin Sans";
+	src:url(../themes_cirsmas/font/JosefinSans-BoldItalic.ttf) format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Josefin Sans";
+	src:url(../themes_cirsmas/font/JosefinSans-BoldItalic.ttf) format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+
+@font-face {
+	font-family: "Josefin Sans";
+	src:url(../themes_cirsmas/font/JosefinSans-SemiBoldItalic.ttf) format("truetype");
+	font-weight: 600;
+	font-style: italic;
+}

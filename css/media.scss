@@ -1,0 +1,301 @@
+@media only screen and (min-width:0px)
+and (max-width:1305px){
+	/*1600*/
+	.top_part{
+		width: 100%;
+		height: 1200px;
+		background-image: url("../img/stock-photo-bundles-of-osiers-in-copse-parcel-515296669@2x.png");
+		header.top_menu{
+			height: auto;
+			img{
+				width: 50%;
+			}
+			#logo {
+				padding: 10px;
+				padding-right: 10px;
+				display: inline-block;
+				float: right;
+				width: 220px;
+				height: 28px;
+			}
+			.overlay{
+				display: block;
+			}
+			#open{
+				display: block;
+				margin:none;
+				float: left;
+			}
+		}
+	}
+	.top_part_iegade{
+		width: 100%;
+		height: 1200px;
+		background-image: url("../img/linda-sondergaard-441594-unsplash@2x.png");
+		header.top_menu{
+			height: auto;
+			img{
+				width: 50%;
+			}
+			#logo {
+				padding: 10px;
+				padding-right: 10px;
+				display: inline-block;
+				float: right;
+				width: 220px;
+				height: 28px;
+			}
+			.overlay{
+				display: block;
+			}
+			#open{
+				display: block;
+				margin:none;
+				float: left;
+			}
+		}
+	}
+	.top_menu {
+		flex-direction: column;
+		ul{
+			li{
+				display:flex;
+				flex-direction: column;
+				padding: 0;
+			}
+		}
+	}
+	.extra_link {
+		width: 100%;
+		margin:0;
+		a{
+			width: 100%;
+			height: auto;
+			display: inline;
+		}
+
+	}
+	.extra_link:after {
+		content:none;
+	}
+	ul.menu{
+		display: none;
+	}
+	.width{
+		width: 100%;
+	}
+	.home_page .wpb_wrapper h1 {
+		margin: 0 auto;
+		width: 100%;
+		font-size: 40px;
+		font-weight: 300;
+	}
+	.img_one{
+		background-image: url("../img/stock-photo-bundles-of-osiers-in-copse-parcel-515296669.png");
+
+	}
+	.logo{
+		float: none;
+	}
+
+	.center_text_block{
+		display: block;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+	}
+	.container_offers{
+		.center_text_block{
+			ul.offers{
+				flex-direction: column;
+				align-self: center;
+				text-align: center;
+			}
+		}
+	}
+
+	.container_center{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+	}
+	.container_center .area_block{
+		width: 100%;
+	}
+	.container_services{
+		.container_center{
+			.img_block{
+				figcaption{
+					margin-top: 33px;
+					width: 100%;
+					text-align: center;
+					color:#231F20;
+				}
+			}
+		}
+	}
+	.container_advantages{
+		height: auto;
+	}
+	.container_get_offer{
+		.container_input{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			flex-direction: column;
+		}
+	}
+	.container_get_offer{
+		margin-top: 86px;
+		text-align: center;
+		height: auto;
+		background-color: #d8e8e2;
+		.container_input{
+			width: 100%;
+			text-align: left;
+			input[type="text"] {
+				margin: 0 0 23px 0; 
+				width: 95%;
+				height: 46px;
+				border-radius: 6px;
+				border-color:#FFFFFF; 
+			}
+			textarea{
+				width: 95%;
+				height: 138px;
+				margin-bottom: 10px;
+			}
+			form {
+				p{
+					width: 95%;
+					margin-top: 10px;
+				}
+				input[type="checkbox"]{
+					width: 100%;
+					height: 20px;
+					margin-bottom: 10px;
+					margin-top: 10px;
+				}
+				input[type="checkbox"]:checked {
+					background-color: #a77e2d !important;
+					color: #ffffff !important; 
+				} 
+				input[type="submit"]{
+					width: 100%;
+					height: 52px;
+					margin-top: 13px;
+					background-color:#006C46;
+					border-radius: 6px;
+					font-weight: bold;
+					color: white; 
+				}
+			}
+		}
+	}
+
+	.slider{
+		height: 100%;
+	}
+	.slider__items{
+		height: auto;
+		width: auto;
+	}
+	.slider__control{
+		width: auto;
+	}
+	.slider__item {
+		height:100%;
+	}
+
+	.contact_image img{
+		width: 100%;
+	}
+	.contact{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		.center-block{
+			.contact_block{
+				width: 97%;
+				height: auto;
+				.info_block{
+					justify-content: center;
+					flex-direction: column;
+					width: 100%;
+					.img_block {
+						figcaption{
+							width: 100%;
+							padding:0;
+						}
+					}
+				}
+			}
+		}
+	}
+	footer {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;height: 100px;
+		.footer-left , .footer-center, .footer-right {
+			float:none;
+			text-align: center;
+			margin:0;
+		}
+		img{
+			text-align: center;
+			margin:0 ;
+		}
+	}
+
+	.home_page{
+		display: flex;
+		flex-direction:column;
+		flex-content:center;
+		text-align: center;
+		align-items:center;
+	}
+	.logo{
+		left:0;
+	}
+	.home_page{
+		height: 100%;
+		.home_image_one{
+			width: 100%;
+			height: 70%;
+		}
+		.home_image_two{
+			width: 100%;
+			height: 70%;
+		}
+	}
+	.logo{
+		width: 200px;
+		height: 24px;
+		left: 50%;
+		margin-left: -100px;
+	}
+	.home_page{
+		.wpb_wrapper{ 
+			height: 100%;
+			h1{
+				font-size: 24px;
+				line-height: 1.1;
+			}
+			h4{
+				a{
+					font-size: 14px;
+				}
+			}
+			.more_info{
+				margin-bottom: 35px;
+			}
+		}
+	}
+
+}
+
+/*  */
